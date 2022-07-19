@@ -1,0 +1,24 @@
+.box-shadow{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10),
+                0 4px 8px 0 rgba(0,0,0,0.10);
+}
+body{
+    height: 3000px;
+}
+
+#home-quote{
+    background: url('../caravan/img/bg-quote.jpg') center center;
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    #home-quote .display-4{
+        font-size: 2.5rem;
+    }
+    body{
+        padding-top: 0px;
+    }
+    .fixed-top{
+        position: absolute;
+    }
+}

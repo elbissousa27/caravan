@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- inicio navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light px-3 box-shadow sticky-md-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index2.html">
+                <img src="/caravan/img/caravan.svg" alt="caravan">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>    
+        </div>
+        <div class="collapse navbar-collapse ps-3" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="locais.html">Locais</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="planos.html">Planos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contatos.html">Contatos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn btn-outline-primary ms-md-2" href="inscrever.html">Inscrever</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
+      <!-- fim navbar -->
+
+    <!-- incio do carousel -->
+    <section class="container-fluid">
+      <div class="row bg-dark text-white">
+      
+        <div class="col-lg-7 p-0">
+          <div id="carouselCidades" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselCidades" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselCidades" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselCidades" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./caravan/img/california.jpg" class="d-block w-100" alt="california">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-4">California</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./caravan/img/paris.jpg" class="d-block w-100" alt="paris">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-4">Paris</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./caravan/img/dublin.jpg" class="d-block w-100" alt="dublin">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="display-4">Dublin</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCidades" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCidades" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="col-lg-5 text-center p-4 align-self-center">
+          <h1 class="display-4">Realize a viagem dos seus sonhos!</h1>
+          <p class="lead d-none d-md-block">O melhor local para viajaré com caravan, mais de 5000 excursões concluídas.</p>
+          <br>
+          <form action="">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="button-addon2">
+              <button class="btn btn-primary" type="button" id="button-addon2">Inscreva-se</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+      <!--fim do carousel -->
+      
+
+
+    <!-- seção de vantagens-->
+    <section class="py-5 bg-light text-center">
+      <div class="container">
+        <div class="my-5">
+          <span class="h6 d-block">TUDO DE MELHOR PARA VOCÊ</span>
+          <h2 class="display-4 text-primary">Aproveite as Vantagens</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-xl-4 col-md-6">
+            <div style="height: 100px;" class="d-flex justify-content-center">
+              <img src="./caravan/img/icones/passaporte.svg" alt="passaporte">
+            </div>
+            <h3>documentos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ratione sapiente labore nemo nobis alias
+          </div>
+
+          <div class="col-xl-4 col-md-6">
+            <div style="height: 100px;" class="d-flex justify-content-center">
+              <img src="./caravan/img/icones/passagens.svg" alt="passagens">
+            </div>            
+            <h3>passagens</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ratione sapiente labore nemo nobis alias
+          </div>
+
+          <div class="col-xl-4 col-md-6">
+            <div style="height: 100px;" class="d-flex justify-content-center">
+              <img src="./caravan/img/icones/translado.svg" alt="translado">
+            </div>            
+            <h3>translado</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ratione sapiente labore nemo nobis alias
+          </div>
+
+          <div class="col-xl-4 col-md-6">
+            <div style="height: 100px;" class="d-flex justify-content-center">
+              <img src="./caravan/img/icones/turismo.svg" alt="turismo">
+            </div>
+            <h3>turismo</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ratione sapiente labore nemo nobis alias
+          </div>
+
+          <div class="col-xl-4 col-md-6">
+            <div style="height: 100px;" class="d-flex justify-content-center">
+              <img src="./caravan/img/icones/bagagens.svg" alt="bagagens">
+            </div>            
+            <h3>bagagens</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ratione sapiente labore nemo nobis alias
+          </div>
+
+          <div class="col-xl-4 col-md-6">
+            <div style="height: 100px;" class="d-flex justify-content-center">
+              <img src="./caravan/img/icones/praias.svg" alt="praias">
+            </div>            
+            <h3>praias</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ratione sapiente labore nemo nobis alias
+          </div>
+
+        </div>
+        
+        <a href="planos.html" class="btn btn-primary btn-lg my-4">Comprar Planos</a>
+      </div>
+    </section>
+    <!-- fim da seção de vantagens-->
+
+    <section id="home-quote" class="p-md-5">
+      <blockquote class="blockquote text-center text-white p-md-5 p-3">
+        <p class="display-4">
+          <em>"A felicidade não está na estrada que leva a algum lugar. A felicidade é a própria estrada."</em>
+        </p>
+        <footer  class="blockquote-footer text-white">Bob Dylan</footer>
+      </blockquote>
+    </section>
+
+
+    <footer class="bg-dark text-white">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-3">
+            <h4 class="h6">PÁGINAS</h4>
+            <ul class="list-unstyled">
+              <li><a style="text-decoration: none;" href="planos.html">planos</a></li>
+              <li><a style="text-decoration: none;" href="contato.html">contatos</a></li>
+              <li><a style="text-decoration: none;" href="inscricao.html">Inscreva-se</a></li>
+            </ul>
+          </div>
+          <div class="col-3">
+            <h4 class="h6">PÁGINAS</h4>
+            <ul class="list-unstyled">
+              <li><a style="text-decoration: none;" href="planos.html">planos</a></li>
+              <li><a style="text-decoration: none;" href="contato.html">contatos</a></li>
+              <li><a style="text-decoration: none;" href="inscricao.html">Inscreva-se</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  
+
+
+
+    <script type="text/javascript" src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
